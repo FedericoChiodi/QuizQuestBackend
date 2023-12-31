@@ -1,0 +1,49 @@
+###
+GET http://localhost:8081/QuizQuest/questions
+Accept: application/json
+
+###
+
+GET http://localhost:8081/QuizQuest/questions/12
+Accept: application/json
+
+###
+
+POST http://localhost:8081/QuizQuest/questions/count
+Content-Type: application/json
+
+{}
+
+###
+
+GET http://localhost:8081/QuizQuest/questions/101
+Accept: application/json
+
+###
+
+POST http://localhost:8081/QuizQuest/questions
+Content-Type: application/json
+
+{
+  "questionText": "This is a test question",
+  "answer1": "This is the first answer",
+  "answer2": "This is the second answer",
+  "correctAnswer": 1
+}
+
+###
+
+PUT http://localhost:8081/QuizQuest/questions/101
+Content-Type: application/json
+
+{
+  "questionText": "This is a test question UPDATED",
+  "answer1": "This is the first answer",
+  "answer2": "This is the second answer",
+  "correctAnswer": 1
+}
+
+###
+
+DELETE http://localhost:8081/QuizQuest/questions/101
+Content-Type: application/json
