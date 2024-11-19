@@ -1,6 +1,7 @@
 # QuizQuest Backend
 
-Il backend di QuizQuest gestisce la logica di business dell'applicazione e fornisce API RESTful per la comunicazione con il frontend. Il servizio è implementato in Java utilizzando il framework Spring Boot, garantendo un'architettura robusta e scalabile.
+Semplice interfaccia Restful scritta per il progetto opzionale del corso di Progetto di sistemi web. Si attacca ad un database locale mysql che contiene un centinaio di domande vero/falso
+Il servizio è implementato in Java utilizzando il framework Spring Boot.
 
 ### Dipendenze
 
@@ -13,6 +14,3 @@ Il backend di QuizQuest gestisce la logica di business dell'applicazione e forni
 1. Clonare il repository.
 2. Navigare nella cartella `backend`.
 3. Eseguire il comando `./mvnw spring-boot:run` per avviare il server.
-
-
-© 2023 QuizQuest. Tutti i diritti riservati.
